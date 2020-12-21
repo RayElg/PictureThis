@@ -100,7 +100,7 @@
     <title>PictureThis - Upload</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <a class="navbar-brand" href="./">PictureThis</a>
         <?php
             session_start();
@@ -112,6 +112,8 @@
                 echo("<a class=\"btn btn-link\" href=\"./login.php\"> Login </a>");
             }
         ?>
+
+        <div class="navbar-collapse justify-content-end"><a class="btn btn-primary" href="./upload.php">Upload</a></div>
     </nav>
     <br>
     <div class="container">

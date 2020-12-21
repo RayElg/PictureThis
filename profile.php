@@ -5,7 +5,7 @@
     <title>PictureThis - Profile</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <a class="navbar-brand" href="./">PictureThis</a>
         <?php
             session_start();
@@ -18,7 +18,7 @@
             }
         ?>
 
-        <div class="collapse navbar-collapse justify-content-end"><a class="btn btn-primary" href="./upload.php">Upload</a></div>
+        <div class="navbar-collapse justify-content-end"><a class="btn btn-primary" href="./upload.php">Upload</a></div>
     </nav>
     <br>
     <div class="container">
